@@ -1,0 +1,85 @@
+<!-- Coin Flip HTML -->
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Coin Flipper</title>
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div class='container'>
+      <!-- Header -->
+      <header>
+        <div class="title-box">
+          <h1>COIN FLIPPER</h1>
+          <h2>Guess Heads or Tails?</h2>
+        </div>
+      </header>
+      
+       <!-- Main Content -->
+       <main>
+
+          <section class="section-1">
+
+          <div class="head-tail">
+            <button id="heads">Heads</button>
+            <button id="tails">Tails</button>
+          </div> 
+
+      <div class="guess-msg">
+        You guessed:
+        <span id="guess"></span>
+      </div>
+
+      <div class='coin-image-area'>
+        
+        <div id="coin-image"></div>
+        <div id="win-lose"></div> 
+        <div id="win-loss-tracker"></div>
+      </div>
+      
+      
+    </section>
+
+    <section class="section-2">
+      <div class='blurb-row'>
+        
+        <div class='blurb'>
+          <h3>Wins: </h3>
+          <span id="wins"></span>
+           <h3>Losses: </h3>
+          <span id="losses"></span>
+        </div>
+
+        <div class='blurb'>
+          <h3>Heads chosen: </h3>
+          <span id="heads-chosen"></span>
+          <h3>Tails chosen: </h3>
+          <span id="tails-chosen"></span>
+        </div>
+          
+      </div>   
+    </section>
+    
+   </main> 
+   <!--  Footer -->
+  <footer> 
+    <div class="content-wrap">Coin-Flipper &copy Delphine Dara 2020</div>
+   </footer>
+
+  </div> <!-- div container -->
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="flipCoin.js"></script>
+
+  </body>
+
+  
+
+</html>
